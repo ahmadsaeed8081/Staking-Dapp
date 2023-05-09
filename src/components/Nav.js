@@ -143,7 +143,7 @@ export default function Nav() {
   }
 
   useEffect(() => {
-    connectWallet();
+//     connectWallet();
     mount();
   }, []);
 
