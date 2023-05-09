@@ -299,9 +299,13 @@ export default function Nav() {
       alert("please write amount ");
     }
   }
+  try{
+    
   window.ethereum.on("chainChanged", hello);
   window.ethereum.on("accountsChanged", hello);
-
+  }
+  catch{
+  }
   function hello() {
     window.location.reload();
   }
